@@ -1,6 +1,6 @@
 const Skill = () => {
   return (
-    <section className="bg-white border-b py-8">
+    <section className="py-20">
       <div className="container mx-auto flex flex-wrap py-12">
         <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
           Skills

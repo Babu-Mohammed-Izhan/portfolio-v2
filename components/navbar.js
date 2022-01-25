@@ -35,7 +35,7 @@ const Navbar = () => {
           hover:from-blue-400
         "
               >
-                Md Izhan
+                Izhan
               </a>
             </Link>
           </div>
