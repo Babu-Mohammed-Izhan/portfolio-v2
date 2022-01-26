@@ -63,7 +63,7 @@ const Project = () => {
   return (
     <section className="py-8 w-full md:w-10/12 mx-auto ">
       <div className="container mx-auto flex flex-wrap pt-4 pb-12 text-black dark:text-white">
-        <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800 dark:text-white">
+        <h1 className="w-full mb-10 text-5xl font-bold leading-tight text-center text-gray-800 dark:text-white">
           Projects
         </h1>
         {projects.map((p) => {

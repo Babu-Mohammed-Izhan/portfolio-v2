@@ -9,6 +9,7 @@ module.exports = {
       animation: {
         blob: 'blob 7s infinite',
         blobdark: 'blob 5s infinite',
+        gradient: 'hue 1s infinte',
       },
       keyframes: {
         blob: {
@@ -23,6 +24,17 @@ module.exports = {
           },
           '100%': {
             transform: 'tranlate(0px, 0px) scale(1)',
+          },
+        },
+        hue: {
+          '0%': {
+            'filter': 'hue-rotate(0deg)',
+          },
+          '50%': {
+            'filter': 'hue-rotate(-180deg)',
+          },
+          '100%': {
+            'filter': 'hue-rotate(-360deg)',
           },
         },
       },
