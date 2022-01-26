@@ -8,7 +8,7 @@ const Navbar = () => {
     setHidden(!hidden);
   };
   return (
-    <nav className="bg-white shadow dark:bg-gray-800">
+    <nav className="bg-white shadow dark:bg-black">
       <div
         className="
     container
@@ -123,6 +123,7 @@ const Navbar = () => {
                 Skills
               </a>
             </Link>
+            <button>Dark Mode</button>
           </div>
         </div>
       </div>
