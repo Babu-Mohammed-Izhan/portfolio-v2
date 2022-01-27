@@ -62,13 +62,15 @@ const Project = () => {
 
   return (
     <section className="py-8 w-full md:w-10/12 mx-auto ">
-      <div className="container mx-auto flex flex-wrap pt-4 pb-12 text-black dark:text-white">
+      <div className=" mx-auto flex flex-wrap pt-4 pb-12 text-black dark:text-white">
         <h1 className="w-full mb-10 text-5xl font-bold leading-tight text-center text-gray-800 dark:text-white">
           Projects
         </h1>
-        {projects.map((p) => {
-          return <ProjectCard key={p.name} data={p} />;
-        })}
+        <div className="w-10/12 mx-auto p-3 grid grid-cols-1 md:grid-cols-2 gap-4 mt-10">
+          {projects.map((p) => {
+            return <ProjectCard key={p.name} data={p} />;
+          })}
+        </div>
       </div>
     </section>
   );

@@ -8,8 +8,7 @@ module.exports = {
     extend: {
       animation: {
         blob: 'blob 7s infinite',
-        blobdark: 'blob 5s infinite',
-        gradient: 'hue 1s infinte',
+        gradient: 'hue 10s infinte',
       },
       keyframes: {
         blob: {
@@ -17,10 +16,10 @@ module.exports = {
             transform: 'translate(0px, 0px) scale(1)',
           },
           '33%': {
-            transform: 'translate(30px, -50px) scale(1.1)',
+            transform: 'translate(20px, -50px) scale(1.1)',
           },
           '66%': {
-            transform: 'translate(-30px, 20px) scale(0.9)',
+            transform: 'translate(-40px, 20px) scale(0.9)',
           },
           '100%': {
             transform: 'tranlate(0px, 0px) scale(1)',

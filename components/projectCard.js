@@ -1,6 +1,6 @@
 const projectCard = ({ data }) => {
   return (
-    <div className="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
+    <div className="w-full flex flex-col flex-grow flex-shrink">
       <a
         href={data.url}
         className="h-full flex flex-wrap no-underline hover:no-underline"

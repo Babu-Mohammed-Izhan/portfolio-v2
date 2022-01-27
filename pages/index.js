@@ -15,9 +15,9 @@ export default function Home() {
       <body className="leading-normal tracking-normal mx-auto w-full  gradient bg-white dark:bg-gray-900">
         <section id="hero">
           <div className="container px-3 py-40 mx-auto flex flex-wrap flex-col md:flex-row items-center relative">
-            <div className="absolute top-20 left-[30%] md:w-72 md:h-72 w-40 h-40 bg-purple-300 rounded-full mix-blend-multiply filter blur-2xl opacity-50 animate-blob dark:hidden"></div>
-            <div className="absolute top-40 left-[40%] md:w-72 md:h-72 w-40 h-40 bg-pink-300 rounded-full mix-blend-multiply filter blur-2xl opacity-50 animate-blob dark:hidden animation-delay-2000"></div>
-            <div className="absolute top-20 left-[45%] md:w-72 md:h-72 w-40 h-40 bg-yellow-300 rounded-full mix-blend-multiply filter blur-2xl opacity-50 animate-blob dark:hidden animation-delay-1000"></div>
+            <div className="absolute top-20 left-[30%] md:w-72 md:h-72 sm:w-52 sm:h-52 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob dark:hidden"></div>
+            <div className="absolute top-40 left-[40%] md:w-72 md:h-72 sm:w-52 sm:h-52 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob dark:hidden animation-delay-2000"></div>
+            <div className="absolute top-20 left-[45%] md:w-72 md:h-72 sm:w-52 sm:h-52 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob dark:hidden animation-delay-1000"></div>
             <div className="flex flex-col w-full justify-center items-center text-center">
               <h1 className="my-4 text-5xl md:text-6xl font-bold leading-tight text-center text-black dark:text-[#cb5bff] dark:bg-gradient-to-r dark:from-[#9726f3] dark:to-[#fe3ae4] dark:text-transparent dark:bg-clip-text dark:animate-gradient">
                 Mohammed Izhan
