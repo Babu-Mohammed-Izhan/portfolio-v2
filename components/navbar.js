@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import { useState } from 'react';
-import { Switch } from '@headlessui/react';
 
 const Navbar = ({ mode, setMode }) => {
   const [hidden, setHidden] = useState(true);
@@ -9,12 +8,11 @@ const Navbar = ({ mode, setMode }) => {
     setHidden(!hidden);
   };
   return (
-    <nav className="bg-white shadow dark:bg-gray-900">
+    <header className="bg-transparent dark:text-white md:p-5 backdrop-filter backdrop-blur-xl backdrop-saturate-40 sticky  top-0 z-10 p-4 font-medium text-black shadow-md">
       <div
         className="
     container
     px-6
-    py-3
     mx-auto
     md:flex md:justify-between md:items-center
   "
@@ -25,15 +23,13 @@ const Navbar = ({ mode, setMode }) => {
               <a
                 className="
               bg-clip-text text-transparent
-               bg-gradient-to-r 
-               from-blue-500 
-               to-purple-500
-          text-xl
+              bg-gradient-to-r from-purple-600 to-pink-600
+          text-2xl
           font-bold
           dark:text-white
-          md:text-2xl
+          md:text-3xl
           hover:to-purple-400
-          hover:from-blue-400
+          hover:from-pink-400
         "
               >
                 Izhan
@@ -70,7 +66,7 @@ const Navbar = ({ mode, setMode }) => {
             <Link href="#">
               <a
                 className="
-                pt-1
+                md:pt-1
           my-2
           text-gray-700
           dark:text-gray-200
@@ -86,7 +82,7 @@ const Navbar = ({ mode, setMode }) => {
             <Link href="#about">
               <a
                 className="
-                pt-1
+                md:pt-1
               my-2
           text-gray-700
           dark:text-gray-200
@@ -101,7 +97,7 @@ const Navbar = ({ mode, setMode }) => {
             <Link href="#projects">
               <a
                 className="
-                pt-1
+              md:pt-1
               my-2
           text-gray-700
           dark:text-gray-200
@@ -116,7 +112,7 @@ const Navbar = ({ mode, setMode }) => {
             <Link href="#skills">
               <a
                 className="
-                pt-1
+                md:pt-1
               my-2
           text-gray-700
           dark:text-gray-200
@@ -128,55 +124,46 @@ const Navbar = ({ mode, setMode }) => {
                 Skills
               </a>
             </Link>
-            <Switch
-              checked={mode}
-              onChange={setMode}
-              className={`${mode ? 'bg-purple-900' : 'bg-purple-600'}
-          relative inline-flex flex-shrink-0 h-7 w-14 md:ml-3 mt-2 md:mt-1 border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:outline-none focus-visible:ring-2  focus-visible:ring-white focus-visible:ring-opacity-75`}
+            <button
+              onClick={() => setMode(!mode)}
+              className=" bg-purple-400 cursor-pointer h-8 w-8 md:ml-3 mt-2 md:mt-1 border-2 border-transparent rounded-lg "
             >
-              <span className="sr-only">Use setting</span>
-              <span
-                aria-hidden="true"
-                className={`${mode ? 'translate-x-7' : 'translate-x-0'}
-            pointer-events-none h-6 w-6 rounded-full bg-white shadow-lg transform ring-0 transition ease-in-out duration-200 flex item-center justify-center pt-1`}
-              >
-                {mode ? (
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-4 w-4"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
-                    />
-                  </svg>
-                ) : (
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-4 w-4"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
-                    />
-                  </svg>
-                )}
-              </span>
-            </Switch>
+              {mode ? (
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6 mx-auto stroke-black"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+                  />
+                </svg>
+              ) : (
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6 mx-auto stroke-black"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
+                  />
+                </svg>
+              )}
+            </button>
           </div>
         </div>
       </div>
-    </nav>
+    </header>
   );
 };
 

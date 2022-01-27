@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       animation: {
         blob: 'blob 7s infinite',
-        gradient: 'hue 10s infinte',
+        gradient: 'hue 10s infinte linear',
       },
       keyframes: {
         blob: {
@@ -26,14 +26,14 @@ module.exports = {
           },
         },
         hue: {
-          '0%': {
-            'filter': 'hue-rotate(0deg)',
+          '0%,50%,100%': {
+            'transform': 'rotate(0deg)',
           },
-          '50%': {
-            'filter': 'hue-rotate(-180deg)',
+          '25%': {
+            'transform': 'rotate(10deg)',
           },
-          '100%': {
-            'filter': 'hue-rotate(-360deg)',
+          '75%': {
+            'transform': 'rotate(-10deg)',
           },
         },
       },

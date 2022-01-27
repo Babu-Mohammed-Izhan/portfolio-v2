@@ -8,7 +8,10 @@ export default function Layout({ children }) {
   const [mode, setMode] = useState(true);
 
   return (
-    <main className={`${mode ? 'light' : 'dark'}`}>
+    <main
+      className={`${mode ? 'light bg-white ' : 'dark bg-gray-900 '} 
+  `}
+    >
       <Navbar mode={mode} setMode={setMode} />
       {children}
       <Footer />

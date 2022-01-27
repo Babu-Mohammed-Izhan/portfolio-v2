@@ -19,13 +19,26 @@ const Skill = () => {
       icon: 'icons/Bootstrap.png',
     },
     {
+      name: 'MUI',
+      icon: '',
+    },
+    {
+      name: 'Tailwind',
+      icon: '',
+    },
+    {
       name: 'Javascript',
       icon: 'icons/javascript.png',
+    },
+    {
+      name: 'Typescript',
+      icon: '',
     },
     {
       name: 'React',
       icon: 'icons/react.png',
     },
+    { name: 'Next', icon: 'icons/react.png' },
     {
       name: 'Express',
       icon: 'icons/expressjs.png',
@@ -36,6 +49,10 @@ const Skill = () => {
     },
     {
       name: 'MongoDB',
+      icon: 'icons/mongodb.png',
+    },
+    {
+      name: 'Postgres',
       icon: 'icons/mongodb.png',
     },
     {
@@ -51,12 +68,24 @@ const Skill = () => {
       icon: 'icons/graphql.png',
     },
     {
-      name: 'Python',
-      icon: 'icons/python.png',
+      name: 'Apollo GraphQl',
+      icon: 'icons/graphql.png',
     },
     {
       name: 'Jest',
       icon: 'icons/jest.png',
+    },
+    {
+      name: 'Mocha',
+      icon: '',
+    },
+    {
+      name: 'Cypress',
+      icon: '',
+    },
+    {
+      name: 'Python',
+      icon: 'icons/python.png',
     },
   ];
 

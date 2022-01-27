@@ -66,7 +66,7 @@ const Project = () => {
         <h1 className="w-full mb-10 text-5xl font-bold leading-tight text-center text-gray-800 dark:text-white">
           Projects
         </h1>
-        <div className="w-10/12 mx-auto p-3 grid grid-cols-1 md:grid-cols-2 gap-4 mt-10">
+        <div className="w-10/12 mx-auto p-3 grid grid-cols-1 md:grid-cols-2 gap-10 mt-10">
           {projects.map((p) => {
             return <ProjectCard key={p.name} data={p} />;
           })}

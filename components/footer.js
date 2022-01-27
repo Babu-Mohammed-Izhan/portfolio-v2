@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="w-full flex flex-col lg:flex-row py-6 items-center">
           <div className="flex-1 mb-6 text-black">
             <a
-              className="text-purple-600 dark:text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
+              className="bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600 dark:text-white no-underline hover:no-underline font-bold text-4xl"
               href="#"
             >
               Izhan
