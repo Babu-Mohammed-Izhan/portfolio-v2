@@ -1,8 +1,20 @@
+import Image from 'next/image';
+
 const projectCard = ({ data }) => {
   return (
     <div className="relative group h-full cursor-pointer shadow-md hover:shadow-xl transition duration-300 dark:shadow-none">
       <div className="absolute -inset-1 bg-gradient-to-r from-pink-600 to-purple-600 rounded-xs blur-sm opacity-50 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-gradient invisible dark:visible"></div>
       <div className="h-full w-full flex flex-col flex-grow flex-shrink relative">
+        {data.imgurl ? (
+          <Image
+            src={data.imgurl}
+            height="500px"
+            width="500px"
+            alt="project-image"
+          />
+        ) : (
+          ''
+        )}
         <a
           href={data.url}
           className="h-full flex flex-wrap no-underline hover:no-underline"

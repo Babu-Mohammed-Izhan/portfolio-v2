@@ -7,8 +7,8 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        blob: 'blob 7s infinite',
-        gradient: 'hue 10s infinte linear',
+        blob: 'blob 5s infinite',
+        gradient: 'hue 5s infinte linear',
       },
       keyframes: {
         blob: {
@@ -16,24 +16,18 @@ module.exports = {
             transform: 'translate(0px, 0px) scale(1)',
           },
           '33%': {
-            transform: 'translate(20px, -50px) scale(1.1)',
+            transform: 'translate(30px, -30px) scale(1.1)',
           },
           '66%': {
-            transform: 'translate(-40px, 20px) scale(0.9)',
+            transform: 'translate(-30px, 30px) scale(0.9)',
           },
           '100%': {
             transform: 'tranlate(0px, 0px) scale(1)',
           },
         },
         hue: {
-          '0%,50%,100%': {
-            'transform': 'rotate(0deg)',
-          },
-          '25%': {
-            'transform': 'rotate(10deg)',
-          },
-          '75%': {
-            'transform': 'rotate(-10deg)',
+          to: {
+            'background-position': '200%',
           },
         },
       },

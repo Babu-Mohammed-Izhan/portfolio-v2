@@ -8,13 +8,26 @@ const Project = () => {
         "Snip is a MERN stack web snippet application, created using React and Chakra UI. It uses a serverless function as it's backend, hosted on Vercel.",
       url: 'https://websnip.netlify.app/',
       github: 'https://github.com/Babu-Mohammed-Izhan/websnippet',
+      imgurl:
+        'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643554337/posrtfolioImages/Snipwebsite_mgkm4g.png',
     },
     {
-      name: 'Ripple',
+      name: 'Casity',
       description:
-        'Ripple is a real time crypto currency convertor, created using React and Tailwind, it shows you a chart with the history of prices created using Recharts. ',
-      url: 'https://ripple-nine.vercel.app/',
-      github: 'https://github.com/Babu-Mohammed-Izhan/cryptoconverter',
+        'Casity is an mobile case e-commerce website where you can buy mobile cases for all the latest phone models.',
+      url: 'https://next-ecommerce-website.vercel.app/',
+      github: 'https://github.com/Babu-Mohammed-Izhan/next-ecommerce-website',
+      imgurl:
+        'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643555977/posrtfolioImages/casitywebsite_iuk721.png',
+    },
+    {
+      name: 'Github Stats',
+      description:
+        'Github Stats is a web application that shows all your github repositories and contributions in a chart.',
+      url: 'https://github-repo-timeline-xi.vercel.app/',
+      github: 'https://github.com/Babu-Mohammed-Izhan/github-repo-timeline',
+      imgurl:
+        'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643554338/posrtfolioImages/githubContributions_sa6h6x.png',
     },
     {
       name: 'AnimeList',
@@ -22,13 +35,8 @@ const Project = () => {
         'AnimeList is a website that lists all the anime in order of popularity and it uses a third party API (Jikan API) to fetch the data of the anime',
       url: 'https://izhananimelist.netlify.app/',
       github: 'https://github.com/Babu-Mohammed-Izhan/animelist',
-    },
-    {
-      name: 'ChatApp',
-      description:
-        'This is a Chat Application created using React and uses Firebase V9 as the backend. Sign In using your google account to chat with others.',
-      url: 'https://breathe-chatapp.herokuapp.com/',
-      github: 'https://github.com/Babu-Mohammed-Izhan/breatheChatApp',
+      imgurl:
+        'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643554339/posrtfolioImages/Animelistwebsite_dpdvtk.png',
     },
     {
       name: 'GPA and CGPA Calculator',
@@ -36,6 +44,8 @@ const Project = () => {
         'Website that calculates GPA and CGPA. Select the number of semesters you want to calculate and enter all the credits and points. It will calculate your GPA and CGPA. Created using React and Bootstrap and hosted on netlify.',
       url: 'https://izhangpacalc.netlify.app/',
       github: 'https://github.com/Babu-Mohammed-Izhan/gpa-calculator',
+      imgurl:
+        'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643558411/posrtfolioImages/gpaCalculator_wra5cf.png',
     },
     {
       name: 'Personal Blog',
@@ -43,13 +53,8 @@ const Project = () => {
         'This is my personal blog created using Nextjs, Tailwind, and uses Sanity.io as the Content Management System.',
       url: 'https://next-blog-xi-coral.vercel.app/',
       github: 'https://github.com/Babu-Mohammed-Izhan/next-blog',
-    },
-    {
-      name: 'Quizz Me Not',
-      description:
-        'Quizz Me Not is a full stack quiz website. In this you can enter your name and play the quiz. The scores for it are displayed at the end in a leaderboard.',
-      url: 'https://quizz-me-not.herokuapp.com/',
-      github: 'https://github.com/Babu-Mohammed-Izhan/Quiz-App-Frontend',
+      imgurl:
+        'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643554339/posrtfolioImages/personalblogwebsite_jvclal.png',
     },
     {
       name: 'Typescript Express MongoDB Server Boilerplate',
