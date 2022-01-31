@@ -3,6 +3,15 @@ import ProjectCard from './projectCard';
 const Project = () => {
   const projects = [
     {
+      name: 'Chameleon',
+      description:
+        'Chameleon is a website where users can upload any image and get a color scheme matching the image. It uses AI to get the most common colors from the image and finds the best suitable color scheme from the available colors.',
+      url: 'https://image-theme-generator.vercel.app/',
+      github: 'https://github.com/Babu-Mohammed-Izhan/image-theme-generator',
+      imgurl:
+        'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643646027/themeImage/chameleon_b4mefm.png',
+    },
+    {
       name: 'Snip',
       description:
         "Snip is a MERN stack web snippet application, created using React and Chakra UI. It uses a serverless function as it's backend, hosted on Vercel.",
@@ -62,6 +71,8 @@ const Project = () => {
         'This is a MVC Express API Boilerplate created using Typescript, and uses MongoDB as the Database.',
       github:
         'https://github.com/Babu-Mohammed-Izhan/typescript-express-server-template',
+      imgurl:
+        'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643646818/posrtfolioImages/typescript-template_arsami.png',
     },
   ];
 
