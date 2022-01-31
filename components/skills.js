@@ -98,7 +98,7 @@ const Skill = () => {
         <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center">
           Skills
         </h1>
-        <div className="w-10/12 mx-auto p-3 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mt-10">
+        <div className="w-10/12 mx-auto p-3 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-10">
           {icons.map((icon) => {
             return <SkillCard key={icon.name} data={icon} />;
           })}
