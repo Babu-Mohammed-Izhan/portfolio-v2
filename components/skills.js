@@ -8,7 +8,7 @@ const Skill = () => {
     },
     {
       name: 'CSS',
-      icon: 'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643615638/posrtfolioImages/css-3_su3dzj.png',
+      icon: 'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643636342/posrtfolioImages/css-3_su3dzj-removebg-preview_rrxxju.png',
     },
     {
       name: 'SCSS',
@@ -16,7 +16,7 @@ const Skill = () => {
     },
     {
       name: 'Bootstrap',
-      icon: 'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643615637/posrtfolioImages/Bootstrap_xus7mc.png',
+      icon: 'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643636279/posrtfolioImages/184-1844911_bootstrap-bootstrap-4-logo-png-removebg-preview_yedaxs-removebg-preview_f6zz7y.png',
     },
     {
       name: 'Tailwind',
@@ -64,7 +64,7 @@ const Skill = () => {
     },
     {
       name: 'Apollo GraphQl',
-      icon: 'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643615638/posrtfolioImages/graphql_cpfhgn.png',
+      icon: 'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643635839/posrtfolioImages/apollo-graphql_huswgi.png',
     },
     {
       name: 'Jest',
