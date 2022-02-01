@@ -81,7 +81,7 @@ const Navbar = ({ mode, setMode }) => {
               ) : (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 mx-auto stroke-gray-800"
+                  className="h-6 w-6 mx-auto stroke-gray-100"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -168,7 +168,7 @@ const Navbar = ({ mode, setMode }) => {
               {mode ? (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 mx-auto stroke-black"
+                  className="h-6 w-6 mx-auto stroke-gray-900"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -183,7 +183,7 @@ const Navbar = ({ mode, setMode }) => {
               ) : (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 mx-auto stroke-black"
+                  className="h-6 w-6 mx-auto stroke-gray-100"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"

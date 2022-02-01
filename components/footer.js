@@ -18,15 +18,7 @@ const Footer = () => {
             <ul className="flex flex-col lg:flex-row items-center mb-6">
               <li className="mt-2 inline-block lg:mr-5 md:block ">
                 <a
-                  href="#"
-                  className="no-underline text-gray-800 dark:text-white hover:text-purple-500"
-                >
-                  Facebook
-                </a>
-              </li>
-              <li className="mt-2 inline-block lg:mr-5 md:block ">
-                <a
-                  href="#"
+                  href="https://www.linkedin.com/in/babu-mohammed-izhan-3a327720b/"
                   className="no-underline text-gray-800 dark:text-white hover:text-purple-500"
                 >
                   Linkedin
@@ -34,7 +26,15 @@ const Footer = () => {
               </li>
               <li className="mt-2 inline-block lg:mr-5 md:block ">
                 <a
-                  href="#"
+                  href="https://github.com/Babu-Mohammed-Izhan"
+                  className="no-underline text-gray-800 dark:text-white hover:text-purple-500"
+                >
+                  Github
+                </a>
+              </li>
+              <li className="mt-2 inline-block lg:mr-5 md:block ">
+                <a
+                  href="https://twitter.com/babu_izhan"
                   className="no-underline text-gray-800 dark:text-white hover:text-purple-500"
                 >
                   Twitter
