@@ -5,9 +5,15 @@ const Resume = () => {
         My Resume
       </h1>
       <div className="flex flex-col mt-10">
-        <button className="bg-white dark:bg-purple-500 text-gray-900 dark:text-white font-bold text-2xl rounded-full my-2 py-4 shadow-xl focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out md:w-96 w-64">
-          Resume
-        </button>
+        <a
+          href="https://drive.google.com/file/d/1pAHBB-XutvdfBaCQs1s-vc9E-xn9qk8r/view?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button className="bg-white dark:bg-purple-500 text-gray-900 dark:text-white font-bold text-2xl rounded-full my-2 py-4 shadow-xl focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out md:w-96 w-64">
+            Resume
+          </button>
+        </a>
         <a
           href="mailto:babuizhan1234@gmail.com"
           target="_blank"
