@@ -6,7 +6,7 @@ const Resume = () => {
       </h1>
       <div className="flex flex-col mt-10">
         <a
-          href="https://drive.google.com/file/d/1pAHBB-XutvdfBaCQs1s-vc9E-xn9qk8r/view?usp=sharing"
+          href="https://drive.google.com/file/d/12dgxQriNlUBNEb3DxNhwvFUjmMaTZiM3/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >

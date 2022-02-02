@@ -48,7 +48,7 @@ const Skill = () => {
     },
     {
       name: 'MongoDB',
-      icon: 'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643617764/posrtfolioImages/MongoDB-Emblem-removebg-preview_kf5cau.png',
+      icon: 'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643779653/posrtfolioImages/MongoDB-Emblem-removebg-preview_kf5cau_1_atdfel.png',
     },
     {
       name: 'Postgres',

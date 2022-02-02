@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const projectCard = ({ data }) => {
   return (
-    <div className="relative group cursor-pointer shadow-md hover:shadow-xl transition duration-300 dark:shadow-none">
+    <div className="relative group cursor-pointer shadow-lg hover:shadow-2xl transition duration-300 dark:shadow-none">
       <div className="absolute -inset-1 bg-gradient-to-r from-pink-600 to-purple-600 rounded-xs blur-sm opacity-50 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-gradient invisible dark:visible"></div>
       <a
         href={data.url ? data.url : data.github}
@@ -16,7 +16,8 @@ const projectCard = ({ data }) => {
               src={data.imgurl}
               height="300px"
               width="540px"
-              alt="project-image aspect-video"
+              className="aspect-video object-cover"
+              alt="project-image"
             />
           ) : (
             ''
