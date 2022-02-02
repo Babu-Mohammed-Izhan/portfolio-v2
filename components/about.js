@@ -5,7 +5,7 @@ const About = () => {
       data-aos-easing="ease-in-quart"
       data-aos-duration="300"
       data-aos-once="true"
-      className="pb-12 w-full md:w-10/12 mx-auto "
+      className="pb-12 w-11/12 mx-auto"
       id="about"
     >
       <div className="container mx-auto m-8 text-black dark:text-white">

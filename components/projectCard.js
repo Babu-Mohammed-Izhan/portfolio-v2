@@ -22,7 +22,7 @@ const projectCard = ({ data }) => {
               src={data.imgurl}
               height="300px"
               width="540px"
-              className="aspect-video object-contain"
+              className="aspect-video object-cover"
               alt="project-image"
             />
           ) : (

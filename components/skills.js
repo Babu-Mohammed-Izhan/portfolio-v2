@@ -86,7 +86,7 @@ const Skill = () => {
 
   return (
     <section
-      className="py-8 w-full md:w-10/12 mx-auto text-black dark:text-white"
+      className="py-8 w-11/12 mx-auto text-black dark:text-white"
       id="skills"
     >
       <div className="mx-auto flex flex-wrap py-12 text-black dark:text-white">
