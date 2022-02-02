@@ -30,6 +30,25 @@ const Project = () => {
         'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643555977/posrtfolioImages/casitywebsite_iuk721.png',
     },
     {
+      name: 'Personal Blog',
+      description:
+        'This is my personal blog created using Nextjs, Tailwind, and uses Sanity.io as the Content Management System.',
+      url: 'https://next-blog-xi-coral.vercel.app/',
+      github: 'https://github.com/Babu-Mohammed-Izhan/next-blog',
+      imgurl:
+        'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643554339/posrtfolioImages/personalblogwebsite_jvclal.png',
+    },
+    {
+      name: 'Github Contribution Extension',
+      description:
+        'This is a google chrome extension in which you can change your github contributions graph chart to 23 premade themes.',
+      url: 'https://github.com/Babu-Mohammed-Izhan/github-contribution-theme-extension',
+      github:
+        'https://github.com/Babu-Mohammed-Izhan/github-contribution-theme-extension',
+      imgurl:
+        'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643787741/posrtfolioImages/GithubChromeExtension_goqsyx.png',
+    },
+    {
       name: 'Github Stats',
       description:
         'Github Stats is a web application that shows all your github repositories and contributions in a chart.',
@@ -55,15 +74,6 @@ const Project = () => {
       github: 'https://github.com/Babu-Mohammed-Izhan/gpa-calculator',
       imgurl:
         'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643558411/posrtfolioImages/gpaCalculator_wra5cf.png',
-    },
-    {
-      name: 'Personal Blog',
-      description:
-        'This is my personal blog created using Nextjs, Tailwind, and uses Sanity.io as the Content Management System.',
-      url: 'https://next-blog-xi-coral.vercel.app/',
-      github: 'https://github.com/Babu-Mohammed-Izhan/next-blog',
-      imgurl:
-        'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643554339/posrtfolioImages/personalblogwebsite_jvclal.png',
     },
     {
       name: 'Typescript Express MongoDB Server Boilerplate',
