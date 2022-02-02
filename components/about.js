@@ -1,6 +1,13 @@
 const About = () => {
   return (
-    <section className="pb-12 w-full md:w-10/12 mx-auto " id="about">
+    <section
+      data-aos="fade-up"
+      data-aos-easing="ease-in-quart"
+      data-aos-duration="300"
+      data-aos-once="true"
+      className="pb-12 w-full md:w-10/12 mx-auto "
+      id="about"
+    >
       <div className="container mx-auto m-8 text-black dark:text-white">
         <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center ">
           About

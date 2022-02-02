@@ -1,6 +1,12 @@
 const Resume = () => {
   return (
-    <section className="container mx-auto text-center py-24 md:py-28 flex items-center flex-col w-full md:w-10/12 ">
+    <section
+      data-aos="fade-up"
+      data-aos-easing="ease-in-quart"
+      data-aos-duration="300"
+      data-aos-once="true"
+      className="container mx-auto text-center py-24 md:py-28 flex items-center flex-col w-full md:w-10/12 "
+    >
       <h1 className="w-full my-2 text-3xl md:text-5xl font-bold leading-tight text-center text-black dark:text-white">
         My Resume
       </h1>
