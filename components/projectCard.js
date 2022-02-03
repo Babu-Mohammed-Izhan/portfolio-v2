@@ -38,6 +38,18 @@ const projectCard = ({ data }) => {
                 {data.description}
               </p>
             </div>
+            {data.url ? (
+              <a
+                href={data.url}
+                className="no-underline hover:underline md:hidden mb-4 dark:text-purple-400 dark:hover:text-purple-200 text-purple-700 hover:text-purple-400"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Website
+              </a>
+            ) : (
+              ''
+            )}
 
             <a
               href={data.github}
