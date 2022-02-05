@@ -2,9 +2,11 @@ const Resume = () => {
   return (
     <section
       data-aos="fade-up"
-      data-aos-easing="ease-in-quart"
-      data-aos-duration="300"
+      data-aos-delay="100"
+      data-aos-duration="600"
+      data-aos-easing="ease-in-out"
       data-aos-once="true"
+      data-aos-anchor-placement="top-bottom"
       className="container mx-auto text-center py-24 md:py-28 flex items-center flex-col w-11/12 "
     >
       <h1 className="w-full my-2 text-3xl md:text-5xl font-bold leading-tight text-center text-black dark:text-white">

@@ -4,9 +4,11 @@ const projectCard = ({ data }) => {
   return (
     <div
       data-aos="fade-up"
-      data-aos-easing="ease-in-quart"
-      data-aos-duration="300"
+      data-aos-delay="100"
+      data-aos-duration="600"
+      data-aos-easing="ease-in-out"
       data-aos-once="true"
+      data-aos-anchor-placement="top-bottom"
       className="relative group cursor-pointer shadow-xl dark:shadow-none"
     >
       <div className="absolute -inset-1 bg-gradient-to-r from-pink-600 to-purple-600 rounded-xs blur-sm opacity-50 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-gradient invisible dark:visible"></div>

@@ -2,9 +2,11 @@ const About = () => {
   return (
     <section
       data-aos="fade-up"
-      data-aos-easing="ease-in-quart"
-      data-aos-duration="300"
+      data-aos-delay="100"
+      data-aos-duration="600"
+      data-aos-easing="ease-in-out"
       data-aos-once="true"
+      data-aos-anchor-placement="top-bottom"
       className="pb-12 w-11/12 mx-auto"
       id="about"
     >

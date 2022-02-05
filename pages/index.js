@@ -15,9 +15,11 @@ export default function Home() {
       <body className="leading-normal tracking-normal mx-auto w-full gradient bg-white dark:bg-gray-900">
         <section
           data-aos="fade-up"
-          data-aos-easing="ease-in-sine"
-          data-aos-duration="300"
+          data-aos-delay="300"
+          data-aos-duration="700"
+          data-aos-easing="ease-in-out"
           data-aos-once="true"
+          data-aos-anchor-placement="top-bottom"
           id="hero"
         >
           <div className="container px-3 py-40 mx-auto flex flex-wrap flex-col md:flex-row items-center relative">
