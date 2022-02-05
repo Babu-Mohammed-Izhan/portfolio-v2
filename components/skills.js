@@ -35,6 +35,10 @@ const Skill = () => {
       icon: 'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643615638/posrtfolioImages/react_qlp3lp.png',
     },
     {
+      name: 'Redux',
+      icon: 'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643615638/posrtfolioImages/redux_tbj81x.png',
+    },
+    {
       name: 'Next',
       icon: 'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643618266/posrtfolioImages/68747470733a2f2f73656261737469616e2d676f6d657a2e636f6d2f6e6578746a732e706e67_tvv8ml.png',
     },
@@ -54,10 +58,7 @@ const Skill = () => {
       name: 'Postgres',
       icon: 'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643618050/posrtfolioImages/745px-Postgresql_elephant.svg_iusf8f.png',
     },
-    {
-      name: 'Redux',
-      icon: 'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643615638/posrtfolioImages/redux_tbj81x.png',
-    },
+
     {
       name: 'GraphQl',
       icon: 'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643615638/posrtfolioImages/graphql_cpfhgn.png',
