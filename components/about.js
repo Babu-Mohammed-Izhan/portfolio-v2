@@ -8,7 +8,7 @@ const About = () => {
       className="pb-12 w-11/12 mx-auto"
       id="about"
     >
-      <div className="container mx-auto m-8 text-black dark:text-white">
+      <div className="w-full md:w-9/12 mx-auto m-8 text-black dark:text-white">
         <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center ">
           About
         </h1>

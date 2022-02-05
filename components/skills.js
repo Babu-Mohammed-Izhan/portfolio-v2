@@ -85,15 +85,12 @@ const Skill = () => {
   ];
 
   return (
-    <section
-      className="py-8 w-11/12 mx-auto text-black dark:text-white"
-      id="skills"
-    >
+    <section className="w-11/12 mx-auto text-black dark:text-white" id="skills">
       <div className="mx-auto flex flex-wrap py-12 text-black dark:text-white">
         <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center">
           Skills
         </h1>
-        <div className="w-10/12 mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-5 mt-10">
+        <div className="w-10/12 md:w-9/12 mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 gap-5 mt-10">
           {icons.map((icon) => {
             return <SkillCard key={icon.name} data={icon} />;
           })}
