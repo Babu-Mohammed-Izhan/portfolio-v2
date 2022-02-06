@@ -14,7 +14,7 @@ const Resume = () => {
       </h1>
       <div className="flex flex-col mt-10">
         <a
-          href="https://drive.google.com/file/d/1Dc6MlOfoHq8B4UiA5DeWTQW-yZXx11J5/view?usp=sharing"
+          href="https://drive.google.com/file/d/1oa6ZSxn1oZO5Cr9nub2jfL34brijc1hp/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
