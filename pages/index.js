@@ -1,10 +1,20 @@
 import Head from 'next/head';
+import { useEffect } from 'react';
 import Project from '../components/projects';
 import About from '../components/about';
 import Resume from '../components/resume';
 import Skills from '../components/skills';
 
 export default function Home() {
+  useEffect(() => {
+    const startup = async () => {
+      const res = await fetch('https://image-theme-generator.vercel.app/');
+      const res2 = await fetch('https://websnippetbackend.vercel.app/');
+    };
+
+    startup();
+  }, []);
+
   return (
     <div>
       <Head>
