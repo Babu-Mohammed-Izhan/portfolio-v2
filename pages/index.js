@@ -8,7 +8,9 @@ import Skills from '../components/skills';
 export default function Home() {
   useEffect(() => {
     const startup = async () => {
-      const res = await fetch('https://image-theme-generator.vercel.app/');
+      const res = await fetch(
+        'https://image-color-theme-backend.herokuapp.com'
+      );
       const res2 = await fetch('https://websnippetbackend.vercel.app/');
     };
 
@@ -37,7 +39,7 @@ export default function Home() {
             <div className="absolute top-40 left-[30%] md:left-[40%] md:w-72 md:h-72 w-40 h-40 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl md:blur-2xl opacity-60 animate-blob dark:hidden animation-delay-2000"></div>
             <div className="absolute top-20 left-[40%] md:left-[50%] md:w-72 md:h-72 w-40 h-40 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl md:blur-2xl opacity-60 animate-blob dark:hidden animation-delay-1000"></div>
             <div className="flex flex-col w-full justify-center items-center text-center">
-              <h1 className="my-4 text-5xl md:text-6xl lg:text-8xl font-bold leading-tight text-center text-black dark:bg-gradient-to-r dark:from-purple-600 dark:to-pink-600 dark:text-transparent dark:bg-clip-text dark:animate-gradient">
+              <h1 className="my-4 text-5xl md:text-6xl lg:text-8xl font-bold leading-tight text-center text-black dark:gradient-text">
                 Mohammed Izhan
               </h1>
               <p className="leading-normal text-lg md:text-xl lg:text-2xl mb-8 text-center text-black dark:text-white">
