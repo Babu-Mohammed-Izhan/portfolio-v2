@@ -9,9 +9,9 @@ const projectCard = ({ data }) => {
       data-aos-easing="ease-in-out"
       data-aos-once="true"
       data-aos-anchor-placement="top-bottom"
-      className="relative group cursor-pointer shadow-xl dark:shadow-none"
+      className="relative group cursor-pointer shadow-xl dark:shadow-none rounded-md"
     >
-      <div className="absolute -inset-1 bg-gradient-to-r from-pink-600 to-purple-600 rounded-xs blur-sm opacity-50 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-gradient invisible dark:visible"></div>
+      <div className="absolute -inset-1 bg-gradient-to-r from-pink-600 to-purple-600 rounded-xs blur-sm opacity-50 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-gradient invisible dark:visible rounded-md"></div>
       <a
         href={data.url ? data.url : data.github}
         className="flex flex-col no-underline hover:no-underline relative"
@@ -24,14 +24,14 @@ const projectCard = ({ data }) => {
               src={data.imgurl}
               height="280px"
               width="540px"
-              className="aspect-video object-fill"
+              className="aspect-video object-fill rounded-t"
               alt="project-image"
             />
           ) : (
             ''
           )}
 
-          <div className="min-h-[20rem] flex items-start justify-between flex-col bg-white dark:bg-gray-800 rounded-sm overflow-hidden p-6">
+          <div className="min-h-[20rem] flex items-start justify-between flex-col bg-white dark:bg-gray-800 rounded-sm overflow-hidden p-6 rounded-b">
             <div>
               <h1 className=" font-bold text-xl text-gray-800 dark:text-white">
                 {data.name}
