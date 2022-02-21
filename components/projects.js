@@ -5,7 +5,7 @@ const Project = () => {
     {
       name: 'Chameleon',
       description:
-        'Chameleon is a website where users can upload any image and get a color scheme matching the image. It uses AI to get the most common colors from the image and finds the best suitable color scheme from the available colors.',
+        'Chameleon is a website where users can upload any image and get a color scheme matching the image. It gets the most common colors from the image and finds the best suitable color scheme from the available colors.',
       url: 'https://image-theme-generator.vercel.app/',
       github: 'https://github.com/Babu-Mohammed-Izhan/image-theme-generator',
       imgurl:
