@@ -34,7 +34,7 @@ export default function Home() {
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dm8ogh4lv/image/upload/v1645540049/posrtfolioImages/Izhan_wfiids.png"
+          content="https://res.cloudinary.com/dm8ogh4lv/image/upload/v1645541152/posrtfolioImages/Izhan_1_znlyzd.png"
         />
 
         <meta property="twitter:card" content="summary_large_image" />
@@ -46,7 +46,7 @@ export default function Home() {
         />
         <meta
           property="twitter:image"
-          content="https://res.cloudinary.com/dm8ogh4lv/image/upload/v1645540049/posrtfolioImages/Izhan_wfiids.png"
+          content="https://res.cloudinary.com/dm8ogh4lv/image/upload/v1645541152/posrtfolioImages/Izhan_1_znlyzd.png"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
