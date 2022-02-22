@@ -33,6 +33,7 @@ export default function Home() {
           content="Full Stack Developer | Software Engineer | Computer Science Student"
         />
         <meta
+          name="image"
           property="og:image"
           content="https://res.cloudinary.com/dm8ogh4lv/image/upload/v1645541152/posrtfolioImages/Izhan_1_znlyzd.png"
         />
@@ -45,6 +46,7 @@ export default function Home() {
           content="Full Stack Developer | Software Engineer | Computer Science Student"
         />
         <meta
+          name="image"
           property="twitter:image"
           content="https://res.cloudinary.com/dm8ogh4lv/image/upload/v1645541152/posrtfolioImages/Izhan_1_znlyzd.png"
         />
