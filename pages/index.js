@@ -28,6 +28,7 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://izhan.vercel.app/" />
         <meta property="og:title" content="Izhan" />
+        <meta name="author" content="Izhan" />
         <meta
           property="og:description"
           content="Full Stack Developer | Software Engineer | Computer Science Student"
