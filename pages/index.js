@@ -25,6 +25,29 @@ export default function Home() {
           name="description"
           content="Full Stack Developer | Software Engineer | Computer Science Student"
         />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://izhan.vercel.app/" />
+        <meta property="og:title" content="Izhan" />
+        <meta
+          property="og:description"
+          content="Full Stack Developer | Software Engineer | Computer Science Student"
+        />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/dm8ogh4lv/image/upload/v1645540049/posrtfolioImages/Izhan_wfiids.png"
+        />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://izhan.vercel.app/" />
+        <meta property="twitter:title" content="Izhan" />
+        <meta
+          property="twitter:description"
+          content="Full Stack Developer | Software Engineer | Computer Science Student"
+        />
+        <meta
+          property="twitter:image"
+          content="https://res.cloudinary.com/dm8ogh4lv/image/upload/v1645540049/posrtfolioImages/Izhan_wfiids.png"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <body className="leading-normal tracking-normal mx-auto w-full gradient bg-white dark:bg-gray-900">
