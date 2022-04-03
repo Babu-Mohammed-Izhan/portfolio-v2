@@ -60,7 +60,16 @@ const Navbar = ({ mode, setMode }) => {
               </svg>
             </button>
             <button
-              onClick={() => setMode(!mode)}
+              onClick={() => {
+                if (typeof window !== 'undefined') {
+                  if (mode) {
+                    window.localStorage.setItem('izhantheme', false);
+                  } else {
+                    window.localStorage.setItem('izhantheme', true);
+                  }
+                }
+                setMode(!mode);
+              }}
               className="md:hidden bg-purple-400 cursor-pointer h-8 w-8 ml-3 mt-2 md:mt-1 border-2 border-transparent rounded-lg "
             >
               {mode ? (
@@ -162,7 +171,16 @@ const Navbar = ({ mode, setMode }) => {
               </a>
             </Link>
             <button
-              onClick={() => setMode(!mode)}
+              onClick={() => {
+                setMode(!mode);
+                if (typeof window !== 'undefined') {
+                  if (mode) {
+                    window.localStorage.setItem('izhantheme', false);
+                  } else {
+                    window.localStorage.setItem('izhantheme', true);
+                  }
+                }
+              }}
               className="hidden md:inline bg-purple-400 cursor-pointer h-8 w-8 md:ml-3 mt-2 md:mt-1 border-2 border-transparent rounded-lg "
             >
               {mode ? (

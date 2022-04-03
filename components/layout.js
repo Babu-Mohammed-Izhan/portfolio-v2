@@ -1,4 +1,4 @@
-import React, { useState, createContext } from 'react';
+import React, { useState, createContext, useEffect } from 'react';
 import Navbar from './navbar';
 import Footer from './footer';
 
@@ -6,6 +6,13 @@ export const ThemeContext = createContext({});
 
 export default function Layout({ children }) {
   const [mode, setMode] = useState(true);
+
+  useEffect(() => {
+    if (window) {
+      setMode(window.localStorage.getItem('izhantheme'));
+    }
+    console.log(mode);
+  }, []);
 
   return (
     <main
