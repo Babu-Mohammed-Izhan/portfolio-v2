@@ -17,8 +17,8 @@ const About = () => {
         <div className="flex flex-wrap">
           <div className="p-6 text-center">
             <h3 className="text-xl font-bold  my-5">
-              I have been a web developer since May 2021, but ever since 12th
-              Standard I have had a passion for creating websites and making
+              I have been a web developer since May 2021, but ever since I was
+              19 years old I have had a passion for creating websites and making
               them beautiful. Everytime I would see a website it intrigued me
               and made me wonder how all of it worked.
             </h3>
