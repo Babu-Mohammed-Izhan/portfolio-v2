@@ -7,7 +7,9 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        blob: 'blob 5s infinite',
+        blob1: 'blob 5s infinite',
+        blob2: 'blob 8s infinite',
+        blob3: 'blob 11s infinite',
         gradient: 'hue 5s infinte linear',
       },
       keyframes: {
