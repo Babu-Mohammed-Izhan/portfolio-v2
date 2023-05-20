@@ -39,32 +39,13 @@ const Project = () => {
         'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643554339/posrtfolioImages/personalblogwebsite_jvclal.png',
     },
     {
-      name: 'Github Contribution Extension',
+      name: 'Twitch Higher or Lower',
       description:
-        'This is a google chrome extension in which you can change your github contributions graph chart to 23 premade themes.',
-      url: 'https://github.com/Babu-Mohammed-Izhan/github-contribution-theme-extension',
-      github:
-        'https://github.com/Babu-Mohammed-Izhan/github-contribution-theme-extension',
+        'Twitch Higher or Lower is a guessing game of the earned amount of Twitch Streamers',
+      url: 'https://twitch-higher-lower.vercel.app/',
+      github: 'https://github.com/Babu-Mohammed-Izhan/twitch-higher-lower',
       imgurl:
-        'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643787741/posrtfolioImages/GithubChromeExtension_goqsyx.png',
-    },
-    {
-      name: 'Github Stats',
-      description:
-        'Github Stats is a web application that shows all your github repositories and contributions in a chart.',
-      url: 'https://github-repo-timeline-xi.vercel.app/',
-      github: 'https://github.com/Babu-Mohammed-Izhan/github-repo-timeline',
-      imgurl:
-        'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643554338/posrtfolioImages/githubContributions_sa6h6x.png',
-    },
-    {
-      name: 'AnimeList',
-      description:
-        'AnimeList is a website that lists all the anime in order of popularity and it uses a third party API (Jikan API) to fetch the data of the anime',
-      url: 'https://izhananimelist.netlify.app/',
-      github: 'https://github.com/Babu-Mohammed-Izhan/animelist',
-      imgurl:
-        'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643554339/posrtfolioImages/Animelistwebsite_dpdvtk.png',
+        'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1684577829/posrtfolioImages/Screenshot_2023-05-20_at_3.46.07_PM_tku7z6.png',
     },
     {
       name: 'GPA and CGPA Calculator',
@@ -76,6 +57,34 @@ const Project = () => {
         'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643558411/posrtfolioImages/gpaCalculator_wra5cf.png',
     },
     {
+      name: 'Github Stats',
+      description:
+        'Github Stats is a web application that shows all your github repositories and contributions in a chart.',
+      url: 'https://github-repo-timeline-xi.vercel.app/',
+      github: 'https://github.com/Babu-Mohammed-Izhan/github-repo-timeline',
+      imgurl:
+        'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643554338/posrtfolioImages/githubContributions_sa6h6x.png',
+    },
+    {
+      name: 'Github Contribution Extension',
+      description:
+        'This is a google chrome extension in which you can change your github contributions graph chart to 23 premade themes.',
+      url: 'https://github.com/Babu-Mohammed-Izhan/github-contribution-theme-extension',
+      github:
+        'https://github.com/Babu-Mohammed-Izhan/github-contribution-theme-extension',
+      imgurl:
+        'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643787741/posrtfolioImages/GithubChromeExtension_goqsyx.png',
+    },
+    {
+      name: 'AnimeList',
+      description:
+        'AnimeList is a website that lists all the anime in order of popularity and it uses a third party API (Jikan API) to fetch the data of the anime',
+      url: 'https://izhananimelist.netlify.app/',
+      github: 'https://github.com/Babu-Mohammed-Izhan/animelist',
+      imgurl:
+        'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643554339/posrtfolioImages/Animelistwebsite_dpdvtk.png',
+    },
+    {
       name: 'Typescript Express MongoDB Server Boilerplate',
       description:
         'This is a MVC Express API Boilerplate created using Typescript, and uses MongoDB as the Database.',
@@ -83,7 +92,7 @@ const Project = () => {
         'https://github.com/Babu-Mohammed-Izhan/typescript-express-server-template',
       imgurl:
         'https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643646818/posrtfolioImages/typescript-template_arsami.png',
-    },
+    }
   ];
 
   return (
