@@ -9,9 +9,11 @@ export default function Home() {
   useEffect(() => {
     const startup = async () => {
       const res = await fetch(
-        'https://image-color-theme-backend.herokuapp.com'
+        'https://chameleon-backend.onrender.com/api/ping'
       );
       const res2 = await fetch('https://websnippetbackend.vercel.app/');
+      console.log(res);
+      console.log(res2);
     };
 
     startup();
