@@ -1,10 +1,8 @@
-import { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import '../styles/globals.scss';
-import Layout from '../components/layout';
-import Router from 'next/router';
-import withYM from 'next-ym';
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import "../styles/globals.scss";
+import Layout from "../components/layout";
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
@@ -18,4 +16,4 @@ function MyApp({ Component, pageProps }) {
   );
 }
 
-export default withYM('88134506', Router)(MyApp);
+export default MyApp;
