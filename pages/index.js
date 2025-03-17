@@ -1,17 +1,17 @@
-import Head from 'next/head';
-import { useEffect } from 'react';
-import Project from '../components/projects';
-import About from '../components/about';
-import Resume from '../components/resume';
-import Skills from '../components/skills';
+import Head from "next/head";
+import { useEffect } from "react";
+import Project from "../components/projects";
+import About from "../components/about";
+import Resume from "../components/resume";
+import Skills from "../components/skills";
 
 export default function Home() {
   useEffect(() => {
     const startup = async () => {
       const res = await fetch(
-        'https://chameleon-backend.onrender.com/api/ping'
+        "https://chameleon-backend.onrender.com/api/ping"
       );
-      const res2 = await fetch('https://websnippetbackend.vercel.app/');
+      const res2 = await fetch("https://websnippetbackend.vercel.app/");
       console.log(res);
       console.log(res2);
     };
@@ -53,7 +53,7 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <body className="leading-normal tracking-normal mx-auto w-full gradient bg-white dark:bg-gray-900">
+      <body className="leading-normal tracking-normal mx-auto w-full gradient ">
         <section
           data-aos="fade-up"
           data-aos-delay="300"
