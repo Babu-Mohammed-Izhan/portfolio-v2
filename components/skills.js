@@ -75,6 +75,10 @@ const Skill = () => {
       icon: "https://res.cloudinary.com/dm8ogh4lv/image/upload/v1742210069/pngwing.com_1_gaovld.png",
     },
     {
+      name: "Django",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg",
+    },
+    {
       name: "Swift",
       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg",
     },
