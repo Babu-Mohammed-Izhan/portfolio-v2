@@ -3,6 +3,7 @@ const Experience = () => {
     {
       role: 'Senior Full Stack Engineer',
       company: 'SILQ',
+      companyUrl: 'https://silq.net',
       period: 'May 2026 — Present · Doha, Qatar',
       points: [
         'Sole engineer on the Mowaridi customer app, built in Flutter from an empty repository to production in 10 weeks: 34 screens, 61 routes and 17 feature modules with Arabic RTL support.',
@@ -14,6 +15,7 @@ const Experience = () => {
     {
       role: 'Senior Full Stack Engineer',
       company: 'ShopUp',
+      companyUrl: 'https://shopup.org',
       period: 'Jun 2025 — Apr 2026 · Bengaluru, India',
       points: [
         'Shipped features into both native codebases in parallel, Swift on iOS and Kotlin on Android, while owning release builds and App Store versioning.',
@@ -24,6 +26,7 @@ const Experience = () => {
     {
       role: 'Frontend Engineer',
       company: 'ShopUp',
+      companyUrl: 'https://shopup.org',
       period: 'Jun 2023 — Jun 2025 · Bengaluru, India',
       points: [
         'Built merchant onboarding authentication in React and Redux Toolkit that has securely registered over 50,000 merchants.',
@@ -51,6 +54,16 @@ const Experience = () => {
         <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center">
           Experience
         </h1>
+        <p className="w-full text-center mt-4">
+          <a
+            href="https://www.linkedin.com/in/babumohammedizhan"
+            className="text-purple-700 dark:text-purple-400 no-underline hover:underline"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Full history on LinkedIn →
+          </a>
+        </p>
         <div className="w-10/12 md:w-9/12 mx-auto flex flex-col gap-8 mt-10">
           {roles.map((r) => {
             return (
@@ -65,9 +78,20 @@ const Experience = () => {
                 className="bg-white dark:bg-gray-800 rounded-md shadow-lg dark:shadow-none p-6"
               >
                 <h2 className="font-bold text-xl">{r.role}</h2>
-                <p className="font-semibold text-purple-700 dark:text-purple-400">
-                  {r.company}
-                </p>
+                {r.companyUrl ? (
+                  <a
+                    href={r.companyUrl}
+                    className="font-semibold text-purple-700 dark:text-purple-400 no-underline hover:underline"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {r.company}
+                  </a>
+                ) : (
+                  <p className="font-semibold text-purple-700 dark:text-purple-400">
+                    {r.company}
+                  </p>
+                )}
                 <p className="text-sm opacity-70 mb-4">{r.period}</p>
                 <ul className="list-disc pl-5 flex flex-col gap-2">
                   {r.points.map((p) => {

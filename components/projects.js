@@ -10,9 +10,7 @@ const Project = () => {
       urlLabel: "App Store",
       github: "https://play.google.com/store/apps/details?id=com.mowaridi.mowaridi",
       githubLabel: "Google Play",
-      imgurl:
-        "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cb/1d/ea/cb1dea7a-1bac-7850-f69d-11bb3462c2f2/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-      imgContain: true,
+      imgurl: "/images/mowaridi.jpg",
     },
     {
       name: "Sary — B2B Wholesale Marketplace",
@@ -22,9 +20,7 @@ const Project = () => {
       urlLabel: "App Store",
       github: "https://play.google.com/store/apps/details?id=com.sary.sary",
       githubLabel: "Google Play",
-      imgurl:
-        "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/0b/8c/de0b8c51-89d2-75f3-1021-cf8ba610c148/AppIcon-sary-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-      imgContain: true,
+      imgurl: "/images/sary.jpg",
     },
     {
       name: "Mowaridi & Sary Driver",
@@ -34,6 +30,7 @@ const Project = () => {
       urlLabel: "Mowaridi Driver",
       github: "https://play.google.com/store/apps/details?id=com.sary.operation",
       githubLabel: "Sary Driver",
+      imgurl: "/images/driver.jpg",
     },
     {
       name: "Casity",
