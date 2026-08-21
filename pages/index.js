@@ -2,6 +2,7 @@ import Head from "next/head";
 import { useEffect } from "react";
 import Project from "../components/projects";
 import About from "../components/about";
+import Experience from "../components/experience";
 import Resume from "../components/resume";
 import Skills from "../components/skills";
 
@@ -22,18 +23,18 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Izhan</title>
+        <title>Mohammed Izhan — Senior Full Stack Engineer</title>
         <meta
           name="description"
-          content="Full Stack Developer | Software Engineer | Computer Science Student"
+          content="Senior Full Stack Engineer | Web, iOS, Android and Flutter"
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://izhan.vercel.app/" />
-        <meta property="og:title" content="Izhan" />
-        <meta name="author" content="Izhan" />
+        <meta property="og:title" content="Mohammed Izhan — Senior Full Stack Engineer" />
+        <meta name="author" content="Mohammed Izhan" />
         <meta
           property="og:description"
-          content="Full Stack Developer | Software Engineer | Computer Science Student"
+          content="Senior Full Stack Engineer | Web, iOS, Android and Flutter"
         />
         <meta
           property="og:image"
@@ -42,10 +43,10 @@ export default function Home() {
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://izhan.vercel.app/" />
-        <meta property="twitter:title" content="Izhan" />
+        <meta property="twitter:title" content="Mohammed Izhan — Senior Full Stack Engineer" />
         <meta
           property="twitter:description"
-          content="Full Stack Developer | Software Engineer | Computer Science Student"
+          content="Senior Full Stack Engineer | Web, iOS, Android and Flutter"
         />
         <meta
           property="twitter:image"
@@ -72,13 +73,13 @@ export default function Home() {
                 Mohammed Izhan
               </h1>
               <p className="leading-normal text-lg md:text-xl lg:text-2xl mb-8 text-center text-black dark:text-white">
-                Full Stack Developer | Software Engineer | Computer Science
-                Student
+                Senior Full Stack Engineer | Web, iOS, Android and Flutter
               </p>
             </div>
           </div>
         </section>
         <About />
+        <Experience />
         <Project />
         <Skills />
         <Resume />

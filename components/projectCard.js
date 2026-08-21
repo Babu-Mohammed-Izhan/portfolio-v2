@@ -9,29 +9,31 @@ const projectCard = ({ data }) => {
       data-aos-easing="ease-in-out"
       data-aos-once="true"
       data-aos-anchor-placement="top-bottom"
-      className="relative group cursor-pointer shadow-xl dark:shadow-none rounded-md"
+      className="relative group cursor-pointer shadow-xl dark:shadow-none rounded-md h-full"
     >
       <div className="absolute -inset-1 bg-gradient-to-r from-pink-600 to-purple-600 rounded-xs blur-sm opacity-50 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-gradient invisible dark:visible rounded-md"></div>
       <a
         href={data.url ? data.url : data.github}
-        className="flex flex-col no-underline hover:no-underline relative"
+        className="flex flex-col h-full no-underline hover:no-underline relative"
         target="_blank"
         rel="noreferrer"
       >
-        <div className="flex flex-col">
+        <div className="flex flex-col h-full">
           {data.imgurl ? (
             <Image
               src={data.imgurl}
               height="280px"
               width="540px"
-              className="aspect-video object-fill rounded-t"
+              className={`aspect-video rounded-t ${
+                data.imgContain ? 'object-contain' : 'object-fill'
+              }`}
               alt="project-image"
             />
           ) : (
             ''
           )}
 
-          <div className="min-h-[20rem] flex items-start justify-between flex-col bg-white dark:bg-gray-800 rounded-sm overflow-hidden p-6 rounded-b">
+          <div className="min-h-[20rem] flex-1 flex items-start justify-between flex-col bg-white dark:bg-gray-800 rounded-sm overflow-hidden p-6 rounded-b">
             <div>
               <h1 className=" font-bold text-xl text-gray-800 dark:text-white">
                 {data.name}
@@ -40,27 +42,33 @@ const projectCard = ({ data }) => {
                 {data.description}
               </p>
             </div>
+            <div className="flex flex-col">
             {data.url ? (
               <a
                 href={data.url}
-                className="no-underline hover:underline md:hidden mb-4 dark:text-purple-400 dark:hover:text-purple-200 text-purple-700 hover:text-purple-400"
+                className="no-underline hover:underline mb-4 dark:text-purple-400 dark:hover:text-purple-200 text-purple-700 hover:text-purple-400"
                 target="_blank"
                 rel="noreferrer"
               >
-                Website
+                {data.urlLabel ? data.urlLabel : 'Website'}
               </a>
             ) : (
               ''
             )}
 
-            <a
-              href={data.github}
-              className="no-underline hover:underline mb-4 dark:text-purple-400 dark:hover:text-purple-200 text-purple-700 hover:text-purple-400"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Github
-            </a>
+            {data.github ? (
+              <a
+                href={data.github}
+                className="no-underline hover:underline mb-4 dark:text-purple-400 dark:hover:text-purple-200 text-purple-700 hover:text-purple-400"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {data.githubLabel ? data.githubLabel : 'Github'}
+              </a>
+            ) : (
+              ''
+            )}
+            </div>
           </div>
         </div>
       </a>

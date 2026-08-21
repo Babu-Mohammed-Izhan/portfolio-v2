@@ -74,6 +74,22 @@ const Skill = () => {
       name: "Go",
       icon: "https://res.cloudinary.com/dm8ogh4lv/image/upload/v1742210069/pngwing.com_1_gaovld.png",
     },
+    {
+      name: "Swift",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg",
+    },
+    {
+      name: "Kotlin",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg",
+    },
+    {
+      name: "Angular",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg",
+    },
+    {
+      name: "Dart",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg",
+    },
   ];
 
   return (
