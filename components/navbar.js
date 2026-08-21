@@ -140,6 +140,21 @@ const Navbar = ({ mode, setMode }) => {
                 About
               </a>
             </Link>
+            <Link href="#experience">
+              <a
+                className="
+              md:pt-2
+              my-2
+          text-gray-700
+          dark:text-gray-200
+          hover:text-indigo-500
+          dark:hover:text-indigo-400
+          md:mx-4 md:my-0
+        "
+              >
+                Experience
+              </a>
+            </Link>
             <Link href="#projects">
               <a
                 className="

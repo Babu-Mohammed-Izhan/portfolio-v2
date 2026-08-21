@@ -3,6 +3,39 @@ import ProjectCard from "./projectCard";
 const Project = () => {
   const projects = [
     {
+      name: "Mowaridi — B2B Wholesale Marketplace",
+      description:
+        "Saudi B2B wholesale marketplace where retailers order stock from suppliers. I am the sole engineer on the Flutter customer app and have shipped features across the native iOS and Android builds, covering catalog, cart, checkout, orders and wallet.",
+      url: "https://apps.apple.com/app/mowaridi/id6758908148",
+      urlLabel: "App Store",
+      github: "https://play.google.com/store/apps/details?id=com.mowaridi.mowaridi",
+      githubLabel: "Google Play",
+      imgurl:
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cb/1d/ea/cb1dea7a-1bac-7850-f69d-11bb3462c2f2/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      imgContain: true,
+    },
+    {
+      name: "Sary — B2B Wholesale Marketplace",
+      description:
+        "Sary is one of Saudi Arabia's largest B2B wholesale platforms, connecting retailers with suppliers. I shipped features into the native iOS (Swift) and Android (Kotlin) apps and the Angular web storefront, and owned release builds and App Store versioning.",
+      url: "https://apps.apple.com/app/id1341656558",
+      urlLabel: "App Store",
+      github: "https://play.google.com/store/apps/details?id=com.sary.sary",
+      githubLabel: "Google Play",
+      imgurl:
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/0b/8c/de0b8c51-89d2-75f3-1021-cf8ba610c148/AppIcon-sary-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      imgContain: true,
+    },
+    {
+      name: "Mowaridi & Sary Driver",
+      description:
+        "Delivery operations app used by drivers for pickups, deliveries and cash collection. Both brands ship from a single Kotlin codebase through a brand and environment flavor matrix, each signed with its own Play upload key.",
+      url: "https://play.google.com/store/apps/details?id=com.mowaridi.operation",
+      urlLabel: "Mowaridi Driver",
+      github: "https://play.google.com/store/apps/details?id=com.sary.operation",
+      githubLabel: "Sary Driver",
+    },
+    {
       name: "Casity",
       description:
         "Casity is an mobile case e-commerce website where you can buy mobile cases for all the latest phone models.",
@@ -30,15 +63,6 @@ const Project = () => {
         "https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643554339/posrtfolioImages/personalblogwebsite_jvclal.png",
     },
     {
-      name: "GPA and CGPA Calculator",
-      description:
-        "Website that calculates GPA and CGPA. Select the number of semesters you want to calculate and enter all the credits and points. It will calculate your GPA and CGPA. Created using React and Bootstrap and hosted on netlify.",
-      url: "https://izhangpacalc.netlify.app/",
-      github: "https://github.com/Babu-Mohammed-Izhan/gpa-calculator",
-      imgurl:
-        "https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643558411/posrtfolioImages/gpaCalculator_wra5cf.png",
-    },
-    {
       name: "Github Stats",
       description:
         "Github Stats is a web application that shows all your github repositories and contributions in a chart.",
@@ -57,15 +81,6 @@ const Project = () => {
         "https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643554337/posrtfolioImages/Snipwebsite_mgkm4g.png",
     },
     {
-      name: "Twitch Higher or Lower",
-      description:
-        "Twitch Higher or Lower is a guessing game of the earned amount of Twitch Streamers",
-      url: "https://twitch-higher-lower.vercel.app/",
-      github: "https://github.com/Babu-Mohammed-Izhan/twitch-higher-lower",
-      imgurl:
-        "https://res.cloudinary.com/dm8ogh4lv/image/upload/v1684577829/posrtfolioImages/Screenshot_2023-05-20_at_3.46.07_PM_tku7z6.png",
-    },
-    {
       name: "Github Contribution Extension",
       description:
         "This is a google chrome extension in which you can change your github contributions graph chart to 23 premade themes.",
@@ -75,28 +90,10 @@ const Project = () => {
       imgurl:
         "https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643787741/posrtfolioImages/GithubChromeExtension_goqsyx.png",
     },
-    {
-      name: "AnimeList",
-      description:
-        "AnimeList is a website that lists all the anime in order of popularity and it uses a third party API (Jikan API) to fetch the data of the anime",
-      url: "https://izhananimelist.netlify.app/",
-      github: "https://github.com/Babu-Mohammed-Izhan/animelist",
-      imgurl:
-        "https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643554339/posrtfolioImages/Animelistwebsite_dpdvtk.png",
-    },
-    {
-      name: "Typescript Express MongoDB Server Boilerplate",
-      description:
-        "This is a MVC Express API Boilerplate created using Typescript, and uses MongoDB as the Database.",
-      github:
-        "https://github.com/Babu-Mohammed-Izhan/typescript-express-server-template",
-      imgurl:
-        "https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643646818/posrtfolioImages/typescript-template_arsami.png",
-    },
   ];
 
   return (
-    <section className="py-8 w-11/12 mx-auto ">
+    <section className="py-8 w-11/12 mx-auto " id="projects">
       <div className=" mx-auto flex flex-wrap pt-4 pb-12 text-black dark:text-white">
         <h1 className="w-full mb-10 text-5xl font-bold leading-tight text-center text-gray-800 dark:text-white">
           Projects
