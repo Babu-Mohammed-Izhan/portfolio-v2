@@ -27,14 +27,15 @@ const Experience = () => {
       ],
     },
     {
-      role: 'Frontend Engineer',
+      role: 'Software Development Engineer 1',
       company: 'ShopUp',
       companyUrl: 'https://shopup.org',
       period: 'Jun 2023 — Jun 2025 · Bengaluru, India',
       points: [
         'Built merchant onboarding authentication in React and Redux Toolkit that has securely registered over 50,000 merchants.',
-        'Rolled out automated dependency management with Jira ticket creation across 24 repositories and standardised unit-test and coverage workflows.',
+        'Led an auth migration across 8 Go microservices covering KYC, reconciliation deposits, cash collection and notifications, with RBAC and app-preference migrations.',
         'Designed the gRPC service contract for the product discovery API, authoring the protobuf schema consumed by Go and Ruby clients.',
+        'Rolled out automated dependency management with Jira ticket creation across 24 repositories and standardised unit-test and coverage workflows.',
         'Built and maintained the shared UI framework and React Native component kit used across products.',
       ],
     },
