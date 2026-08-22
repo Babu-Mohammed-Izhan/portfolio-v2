@@ -10,7 +10,7 @@ const Experience = () => {
         'The mobile apps now carry 70% of all marketplace orders at 100% fulfilment and 0.4% cancellation by value.',
         'Built the live operations dashboard and invoice disclosure workflows behind it, tracking SAR 195M across 13,857 invoices.',
         'Set up multi-brand Android release engineering, shipping signed builds for two brands from a single Kotlin codebase.',
-        'Completed the migration of product search from Algolia to Typesense with a DB-sourced backfill, removing the platform\'s last runtime dependency on Algolia.',
+        'Completed the search cutover with a database-sourced Typesense backfill, rebuilding the 39,609-document production index straight from Postgres while Algolia was unreachable.',
       ],
     },
     {
@@ -23,6 +23,7 @@ const Experience = () => {
         'Stood up staging CI/CD delivering QA builds to TestFlight, cutting merge-to-testable-build time on real devices.',
         'Built secure cash-flow tracking across logistics hubs handling over ₹5M per month, and cut infrastructure and SMS costs by ₹1 lakh per month with rate limiting and bot checks.',
         'Designed a zero-downtime migration of product search from Algolia to Typesense in a Django monolith — an adapter layer, a dual-write controller, a LaunchDarkly rollback flag and a compatibility shim so no caller had to change.',
+        'Cut search spend 97%, from $1,396 to $40 a month, while taking on a second tenant — around 43,000 products now served from half a gigabyte of memory with full bilingual relevance parity.',
       ],
     },
     {
