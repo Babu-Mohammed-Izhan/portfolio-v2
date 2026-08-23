@@ -6,7 +6,7 @@ const Experience = () => {
       companyUrl: 'https://silq.net',
       period: 'May 2026 — Present · Doha, Qatar',
       points: [
-        'Sole engineer rebuilding the Mowaridi customer app in Flutter — empty repository to App Store in nine weeks, retiring two separate native codebases: 34 screens, 61 routes, 17 feature modules and Arabic RTL, with Sary added as a second brand from the same source.',
+        'Sole engineer rebuilding the Mowaridi customer app in Flutter — empty repository to feature-complete in five weeks, retiring two separate native codebases: 34 screens, 61 routes, 17 feature modules and Arabic RTL. Sary followed as a second brand from the same source, and both shipped to the App Store.',
         'The mobile apps now carry 70% of all marketplace orders at 100% fulfilment and 0.4% cancellation by value.',
         'Built the live operations dashboard and invoice disclosure workflows behind it, tracking SAR 195M across 13,857 invoices.',
         'Set up multi-brand Android release engineering, shipping signed builds for two brands from a single Kotlin codebase.',
