@@ -6,11 +6,14 @@ const Experience = () => {
       companyUrl: 'https://silq.net',
       period: 'May 2026 — Present · Doha, Qatar',
       points: [
-        'Sole engineer rebuilding the Mowaridi customer app in Flutter — empty repository to feature-complete in five weeks, retiring two separate native codebases: 34 screens, 61 routes, 17 feature modules and Arabic RTL. Sary followed as a second brand from the same source, and both shipped to the App Store.',
-        'The mobile apps now carry 70% of all marketplace orders at 100% fulfilment and 0.4% cancellation by value.',
-        'Built the live operations dashboard and invoice disclosure workflows behind it, tracking SAR 195M across 13,857 invoices.',
-        'Set up multi-brand Android release engineering, shipping signed builds for two brands from a single Kotlin codebase.',
-        'Completed the search cutover with a database-sourced Typesense backfill, rebuilding the 39,609-document production index straight from Postgres while Algolia was unreachable.',
+        'Rebuilt the Mowaridi customer app in Flutter as sole engineer — empty repository to feature-complete in five weeks, retiring two separate native codebases: 34 screens, 61 routes, 17 feature modules and Arabic RTL localisation.',
+        'Extended the same Flutter codebase to a second brand, Sary, and shipped both applications to the App Store.',
+        'Led development of the invoice disclosure admin tracking SAR 195M across 13,857 invoices — per-document pages with linked invoices, document-ID search, OCR row handling, draft-to-invoice conversion and approve/reject gating.',
+        'Built the roles and permissions model for the operations dashboard, covering super-admin and ops roles, a permissioned Metabase analytics embed and Arabic support.',
+        'Established multi-brand release engineering with a separate Play upload key per brand, QA distribution split into single-app and multi-brand workflows, and QA-triggered TestFlight builds.',
+        'Completed a search platform cutover with a database-sourced Typesense backfill, rebuilding a 39,609-document index from PostgreSQL while the Algolia account was unavailable.',
+        'Built internal AI development tooling, including an agent that ports a single change into sibling web, iOS and Android repositories.',
+        'Mobile applications carry 70% of all marketplace orders at 100% fulfilment and 0.4% cancellation by value.',
       ],
     },
     {
@@ -19,11 +22,13 @@ const Experience = () => {
       companyUrl: 'https://shopup.org',
       period: 'Jun 2025 — Apr 2026 · Bengaluru, India',
       points: [
-        'Shipped features into both native codebases in parallel, Swift on iOS and Kotlin on Android, while owning release builds and App Store versioning.',
-        'Stood up staging CI/CD delivering QA builds to TestFlight, cutting merge-to-testable-build time on real devices.',
-        'Built secure cash-flow tracking across logistics hubs handling over ₹5M per month, and cut infrastructure and SMS costs by ₹1 lakh per month with rate limiting and bot checks.',
-        'Designed a zero-downtime migration of product search from Algolia to Typesense in a Django monolith — an adapter layer, a dual-write controller, a LaunchDarkly rollback flag and a compatibility shim so no caller had to change.',
-        'Cut search spend 97%, from $1,396 to $40 a month, while taking on a second tenant — around 43,000 products now served from half a gigabyte of memory with full bilingual relevance parity.',
+        'Migrated product search from Algolia to Typesense across a Django monolith with zero downtime — an adapter layer, a dual-write controller and a LaunchDarkly rollback flag; reduced search spend 97%, from $1,396 to $40 per month, across two tenants.',
+        'Built AI delivery-area prediction across single, bulk and spreadsheet parcel creation on both frontend and backend, with partial rollout, a per-merchant kill switch and prediction logging.',
+        'Delivered customer self-pickup across all three clients — Angular web, Swift on iOS and Kotlin on Android — covering cart, payment, driver selection and order list.',
+        'Converted the customer webstore to multi-brand, driving logos, colours, copy and search configuration per brand from a single Angular codebase and avoiding a fork.',
+        'Launched ZATCA e-invoicing onboarding behind a LaunchDarkly flag, plus RFQ packages and items in the supplier panel.',
+        'Reduced infrastructure and SMS costs by ₹1 lakh per month, blocking automated abuse with rate limiting and bot checks on login and signup.',
+        'Established staging CI/CD delivering QA builds to TestFlight, reducing merge-to-testable-build time on real devices.',
       ],
     },
     {
@@ -33,10 +38,21 @@ const Experience = () => {
       period: 'Jun 2023 — Jun 2025 · Bengaluru, India',
       points: [
         'Built merchant onboarding authentication in React and Redux Toolkit that has securely registered over 50,000 merchants.',
-        'Led an auth migration across 8 Go microservices covering KYC, reconciliation deposits, cash collection and notifications, with RBAC and app-preference migrations.',
-        'Designed the gRPC service contract for the product discovery API, authoring the protobuf schema consumed by Go and Ruby clients.',
-        'Rolled out automated dependency management with Jira ticket creation across 24 repositories and standardised unit-test and coverage workflows.',
-        'Built and maintained the shared UI framework and React Native component kit used across products.',
+        'Led an authentication migration across 8 Go microservices covering KYC, reconciliation deposits, cash collection and notifications, including RBAC and app-preference migrations.',
+        'Designed the gRPC service contract for the product discovery API, authoring the Protocol Buffers schema consumed by Go and Ruby clients.',
+        'Owned the shared API package behind a three-app Flutter monorepo, replacing scattered per-screen error handling with a single exception type and a central notification path.',
+        'Rebuilt the third-party logistics dashboard in React and Ant Design, raising Google PageSpeed to 90 and reducing initial load time by 2 seconds.',
+        'Rolled out automated dependency management with Jira ticket creation across 24 repositories, standardising unit-test and coverage workflows.',
+      ],
+    },
+    {
+      role: 'Software Development Engineer, Intern',
+      company: 'ShopUp',
+      companyUrl: 'https://shopup.org',
+      period: 'Aug 2022 — Jun 2023 · Bengaluru, India',
+      points: [
+        'Delivered merchant features on the RedX web panel (Next.js, Ant Design, Redux Toolkit) and the React Native application, including a notification-banner component shared by both, plus Bangla localisation.',
+        'Built the national-ID update flow with a drag-and-drop document uploader, plus agent reconciliation and stagnant-parcel screens in the internal hub operations panel.',
       ],
     },
     {
@@ -45,6 +61,7 @@ const Experience = () => {
       period: 'Aug 2021 — Nov 2021 · Bengaluru, India',
       points: [
         'Built React and Redux authentication that onboarded 10 schools, with over 2,000 teachers and students registering in a single day.',
+        'Rebuilt the LMS dashboard, reducing load time by 2 seconds and improving LCP by 1.5–2 seconds.',
       ],
     },
   ];
